@@ -1,0 +1,77 @@
+/* about page */
+#about{
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-content{
+    padding-top: 8rem;
+}
+.about-content p{
+    color: #E35701;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.about-content h2{
+    color: white;
+    font-size: 80px;
+}
+
+.about-content-text h5{
+    color: white;
+    font-size: 60px;
+}
+.about-content-paragraph{
+    padding-left: 97px;
+}
+.about-content-paragraph h6{
+    color: white;
+    font-size: 25px;
+}
+.about-content-paragraph p{
+    color: #B7B7B8;
+    font-size: 18px;
+}
+.about-content-paragraph hr{
+    color: #B7B7B8;
+}
+/* join section  */
+#join-img{
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/bg-006.jpg');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+}
+.join-text{
+    padding: 5rem;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin-left: 257px;
+}
+.join-text p{
+    font-weight: 500;
+}
+.join-text h1{
+    font-size: 50px;
+}
+/* media query */
+@media only screen and (max-width: 766px) {
+    .about-content-text h5{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .about-content-paragraph h6{
+        font-size: 20px;
+        margin-left: -48px;    
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .about-content-paragraph{
+        margin-left: -19px;
+    }
+    .about-content-paragraph p{
+        font-size: 18px;
+        margin-left: -41px;
+    }
+}

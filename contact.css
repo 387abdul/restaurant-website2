@@ -1,0 +1,71 @@
+/* contact page */
+#contact{
+    background-color: black;
+    /* background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-1.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cont-head p{
+    color: #E35701;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 6rem;
+}
+.cont-head h1{
+    font-size: 80px;
+}
+#talk{
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+}
+
+.talk h3{
+    font-size: 60px;
+    color: white;
+}
+.talk p{
+    font-weight: 500;
+    width: 40vw;
+    color:darkgray;
+}
+.form p{
+    color: darkgray;
+    font-weight: 500;
+}
+.form span{
+    color: red;
+}
+.form input{
+    padding: 8px 10px;
+}
+/* address*/
+.address p{
+    padding-top: 1rem;
+    color: darkgray;
+    font-weight: 500;
+}
+.address h5{
+    color: white;
+    font-size: 30px;
+}
+.address h6{
+    padding-bottom: 1rem;
+    color: white;
+    font-weight: 600;
+}
+.address hr{
+    color: darkgrey;
+    background-color: darkgrey;
+}
+.for-cont h6{
+    font-size: 25px;
+}
+
+/* media query */
+@media only screen and (max-width: 766px) {
+    .talk P{
+        width: 100vw;
+    }
+}

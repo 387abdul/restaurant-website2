@@ -1,0 +1,106 @@
+/* shop product page */
+body{
+    background-color: black;
+}
+.small-image-group{
+    display: flex;
+}
+.small-img-col{
+    flex-basis: 50%;
+    padding: 3px;
+}
+.button button{
+    background-color: black;
+    border: 1px solid white;
+    padding: .5px 6px;
+}
+.s-product-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.path{
+    color: darkgrey;
+    font-weight: 500;
+    font-size: 15px;
+}
+.path a{
+    color: darkgrey;
+    text-decoration: none;
+}
+.size-card{
+    display: flex;
+}
+.size button{
+    border: 1px solid darkgrey;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+.size span{
+    color: darkgrey;
+    background-color: white;
+    padding: 7px 15px;
+}
+.add-card button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.add-card{
+    padding-left:20px;
+}
+.over-f h5{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.over-f h6{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.payment p{
+    color: darkgrey;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 7px;
+}
+/* according */
+.according{
+    border: .1 light white;
+}
+.according .contentBox{
+    position: relative;
+    margin: 10px 20px;
+}
+.according .contentBox .label{
+    position: relative;
+    padding: 10px;
+    background: black;
+    color: red;
+    transition: 9s;
+    /* border: 0.5px solid white; */
+}
+.according .contentBox .label:hover{
+    h5{
+        color: white;
+    }
+}
+.according .contentBox .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 2rem;
+}
+.according .contentBox .content{
+    position: relative;
+    background-color: black;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}

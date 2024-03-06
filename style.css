@@ -1,0 +1,351 @@
+
+*{
+    overflow-x: hidden;
+    background-size: cover;
+}.HALLOWEEN {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/* navbar section */
+.logo-link{
+    text-decoration: none;
+    color: white;
+}
+.logo-link:hover{
+    color: white;
+}
+.link1 {
+  font-weight: 600;
+  color: white;
+}
+.link1:hover{
+    color: red;
+}
+nav{
+    background-color: black;
+}
+nav ul li {
+  padding-right: 20px;
+}
+/* nav ul li a{
+    color: red;
+} */
+.nav-item a::hover{
+    color: #E35701;
+}
+/* showcase section */
+#showcase{
+    background-color: black;
+    /* padding: px; */
+}
+.showcase-padding{
+    padding: 40px;
+}
+#showcase-img{
+    background-image: url("https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/hero-01.jpg ");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+}
+.showcase-text{
+    color: white;
+    margin: 90px;
+    gap: 10px;
+}
+.showcase-text h1{
+    font-size: 80px;
+}
+.showcase-text p{
+    font-weight: 500;
+}
+.btn-shop{
+    padding: 9px 25px;
+    border: none;
+    color: white;
+    background-color: #E35701;
+    border-radius: 6px;
+}
+/* Product section styling */
+#product{
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-img{
+    padding-left: 11px;
+}
+.product-text{
+    padding-top: 136px;
+    padding-left: 5rem;
+}
+.product-text p{
+    color: #B74D0A;
+    font-weight: 500;
+}
+.product-text h1{
+    font-size: 70px;
+}
+.price{
+    color: #E35701;
+    font-weight: 500;
+}
+.price s{
+   color:#6F2F09;
+}
+
+.card{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.534);
+    padding: 8px;
+    border-radius: 22px;
+    color: #ffffff;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 22px;
+    transition: all 0.5s;
+}
+.product1:hover{
+    .card{
+        display:block;
+        background-color: rgba(0, 0, 0, 0.534);
+        padding: 8px;
+        border-radius: 22px;
+        color: #ffffff;
+        position: absolute;
+        margin-left: 16rem;
+        margin-top: -18rem;
+    }
+}
+
+.product2:hover{
+    .card{
+        display:block;
+        background-color: rgba(0, 0, 0, 0.534);
+        padding: 8px;
+        border-radius: 22px;
+        color: #ffffff;
+        position: absolute;
+        margin-left: 16rem;
+        margin-top: -18rem;
+    }
+}
+.product3:hover{
+    .card{
+        display:block;
+        background-color: rgba(0, 0, 0, 0.534);
+        padding: 8px;
+        border-radius: 22px;
+        color: #ffffff;
+        position: absolute;
+        margin-left: 16rem;
+        margin-top: -18rem;
+    }
+}
+#sweets{
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-3.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.sweets-product p{
+    font-weight: 500;
+}
+.sweets-product h1{
+    font-size: 65px;
+}
+.sweet-text{
+    margin-top: 140px;
+}
+.sweet-image img{
+    border-radius: 30px; 
+    width: 90%; 
+    height: 99%; 
+    margin-left: 62px;
+}
+
+/* SCARRY */
+#SCARRY{
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600%;
+    padding: 0px 10px;
+}
+#SCARRY p{
+    font-size: 500;
+}
+#SCARRY h1{
+    font-size: 65px;
+}
+#Ceramic{
+    background-color: black;
+    padding: 50px;
+}
+#Ceramic-img{
+    background-image: url("https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/bg-07.jpg ");
+    background-repeat: no-repeat;
+    opacity: 10px;
+    border-radius: 15px;
+    background-size: cover;
+}
+#costumes{
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600%;
+    padding: 0px 10px;
+}
+.container-img hr{
+    margin-top: 156px;
+}
+/* TESTIMONIALS section */
+#TESTIMONIALS{
+    background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.TESTIMONIALS-content{
+    width: 50%;
+    padding-top: 8rem;
+}
+.TESTIMONIALS-content h1{
+    font-size: 40px;
+}
+.TESTIMONIALS-content img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.TESTIMONIALS-content p{
+    color:#B6B7B8;
+}
+#services{
+    background-color: black;
+    margin-top: -17px;
+    padding-top: 8rem
+}
+.services-content h1{
+    font-size: 30px;
+    padding-top: 1rem;
+}
+.services-content p{
+    color: #B6B7B8;
+}
+.services-content i{
+    font-size: 1rem;
+}
+/* footer-icon */
+#footer-icon{
+    background-color: black;
+    margin-top: -17px;
+    color: white;
+    padding-top: 30px;
+}
+.footers-links ul{
+    display: flex;
+}
+.footers-links ul li{
+    list-style: none;
+    padding: 10px;
+}
+.footers-links ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+.active{
+    color: #E35701;
+}
+.footers-links ul li a:hover{
+    color: #E35701;
+}
+#footer-copyright{
+    background-color: black;
+}
+.copyright-text{
+    color: #B6B7B8;
+}
+/* media Query */
+@media only screen and (max-width: 766px) {
+    nav ul{
+        background-color: #E35701;
+    }
+    nav ul li{
+        padding-left: 1rem;
+    }
+    .active{
+        color: white;
+    }
+    .add-cart{
+        display: none;
+    }
+    /* showcase */
+    .showcase-text{
+        text-align: center;
+        padding-right: 161px;
+    }
+    #showcase{
+        width: 100%;
+    }
+    /* product 1 */
+    .container-img{
+        padding-left: 1rem;
+    }
+    /* sweet */
+    .sweets-product h1{
+        font-size: 40px;
+    }
+    .text-start{
+        text-align: center;
+        align-items: center;
+    }
+    .sweet-text{
+        margin-top: 10px;
+    }
+    .sweet-text h1{
+        text-align: center;
+    }
+    .sweet-text p{
+        text-align: center;
+    }
+    .sweet-text button{
+        margin-left: 100px;
+    }
+    .sweet-image img{
+        margin-left: -3px;
+        width: 100%;
+    }
+    #SCARRY{
+        margin-top: -177px;
+    }
+    /* <!-- TESTIMONIALS  --> */
+    .TESTIMONIALS-content h1{
+        font-size: 25px;
+    }
+    .TESTIMONIALS-content{
+        width: 100vw;
+        padding-top: 8rem;
+    }
+    /* services */
+    .services-content{
+        text-align: center;
+    }
+    .product-text h1{
+        font-size: 35px;
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 766px) {
+    /* showcase section */
+    #showcase{
+        width:100%;
+        padding-top: 3rem;
+    }
+    .showcase-padding{
+        padding: 0px;
+    }
+    .container-img hr{
+        margin-top: 100px;
+    }
+}
